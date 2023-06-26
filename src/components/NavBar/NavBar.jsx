@@ -18,7 +18,7 @@ const NavBar = () => {
   const isAuthenticated = true;
 
   return (
-    <>
+    <div>
       <AppBar position="fixed">
         <Toolbar className={classes.toolbar}>
           {isMobile && (
@@ -101,7 +101,7 @@ const NavBar = () => {
           )}
         </nav>
       </div>
-    </>
+    </div>
   );
 };
 
